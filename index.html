@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Json data viewer</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    
+    <form id="json">
+        <input type="text" id="link" placeholder="Paste your link here else default will be selected" list="links">
+        <datalist id="links">
+            <option value="https://microsoftedge.github.io/Demos/json-dummy-data/64KB.json">
+        </datalist>
+        <div class="checkboxes"></div>
+        <button type="submit">Submit</button> 
+    </form>
+        
+    <form class="search">
+        <select>
+        </select>
+        <input type="text" id="search" placeholder="Search">
+    </form>
+
+    <table id="main">
+
+    </table>
+
+
+    <div class="sidebar">
+        <img src="x.svg" alt="close button">
+    </div> 
+
+    <script src="main.js"> </script>
+
+</body>
+</html>
